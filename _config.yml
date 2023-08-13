@@ -1,0 +1,30 @@
+
+
+# Site settings
+title: Blog
+email: your-email@domain.com
+description: >
+  
+logo: "/assets/images/uqnqblack.png"
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+paginate:	150 # The number of posts to show per page on your homepage
+
+name: 'Admin'
+bio: >
+  Admin Blog
+author_image: "/assets/images/uqnqblack.png"
+twitter_username: 
+github_username:  
+
+# Google Analytics
+analytics_id: ""
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+gems:
+  - jekyll-paginate
